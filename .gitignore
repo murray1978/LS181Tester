@@ -1,0 +1,8 @@
+
+*.bak
+*.bin
+*.dsn
+fp-info-cache
+*.ses
+ALU_Tester.kicad_pcb-bak
+*.rar
