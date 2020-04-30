@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 963)
+    (start_pass_no 1991)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -26,7 +26,7 @@
     )
   )
   (rule
-    (width 250.0)
+    (width 400.0)
     (clear 200.2)
     (clear 125.0 (type smd_to_turn_gap))
     (clear 50.0 (type smd_smd))
@@ -56,22 +56,33 @@
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 250.0)
+      (width 400.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
     )
   )
   (class "kicad_default"
-    GND 5V "Net-(D1-Pad2)" EAB2 EAB1 "Net-(D4-Pad2)" OF D49
-    D48 D47 D46 D45 D44 D43 D42 D41
-    D40 D39 D38 D37 D36 D35 D34 D33
-    D32 D31 D30 D29 D28 D27 D26 D25
-    D24 D23 D22 "Net-(J2-Pad2)" "MODE_CONT" "Net-(U1-Pad16)"
+    5V "Net-(D1-Pad2)" EAB2 EAB1 "Net-(D4-Pad2)" OF D49 D48
+    D47 D46 D45 D44 D43 D42 D41 D40
+    D39 D38 D37 D36 D35 D34 D33 D32
+    D31 D30 D29 D28 D27 D26 D25 D24
+    D23 D22 "Net-(J2-Pad2)" "MODE_CONT" "Net-(U1-Pad16)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
-      (width 250.0)
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class ground
+    GND
+    (clearance_class default)
+    (via_rule kicad_default)
+    (rule
+      (width 400.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
