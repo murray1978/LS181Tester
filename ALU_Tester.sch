@@ -16,77 +16,77 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x18_Odd_Even J1
 U 1 1 5E9A59D8
-P 2200 3850
-F 0 "J1" H 2250 4867 50  0000 C CNN
-F 1 "Conn_02x18_Odd_Even" H 2250 4776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 2200 3850 50  0001 C CNN
-F 3 "~" H 2200 3850 50  0001 C CNN
-	1    2200 3850
-	1    0    0    -1  
+P 2000 3750
+F 0 "J1" H 2050 4767 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 2050 4676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical" H 2000 3750 50  0001 C CNN
+F 3 "~" H 2000 3750 50  0001 C CNN
+	1    2000 3750
+	-1   0    0    1   
 $EndComp
-Text GLabel 2000 3050 0    50   Input ~ 0
+Text GLabel 2200 4550 2    50   Input ~ 0
 5V
-Text GLabel 2500 3050 2    50   Input ~ 0
+Text GLabel 1700 4550 0    50   Input ~ 0
 5V
-Text GLabel 2000 4750 0    50   Input ~ 0
+Text GLabel 2200 2850 2    50   Input ~ 0
 GND
-Text GLabel 2500 4750 2    50   Input ~ 0
+Text GLabel 1700 2850 0    50   Input ~ 0
 GND
-Text GLabel 2000 3150 0    50   Input ~ 0
+Text GLabel 2200 4450 2    50   Input ~ 0
 D22
-Text GLabel 2000 3250 0    50   Input ~ 0
+Text GLabel 2200 4350 2    50   Input ~ 0
 D24
-Text GLabel 2000 3350 0    50   Input ~ 0
+Text GLabel 2200 4250 2    50   Input ~ 0
 D26
-Text GLabel 2000 3450 0    50   Input ~ 0
+Text GLabel 2200 4150 2    50   Input ~ 0
 D28
-Text GLabel 2000 3550 0    50   Input ~ 0
+Text GLabel 2200 4050 2    50   Input ~ 0
 D30
-Text GLabel 2000 3650 0    50   Input ~ 0
+Text GLabel 2200 3950 2    50   Input ~ 0
 D32
-Text GLabel 2000 3750 0    50   Input ~ 0
+Text GLabel 2200 3850 2    50   Input ~ 0
 D34
-Text GLabel 2000 3850 0    50   Input ~ 0
+Text GLabel 2200 3750 2    50   Input ~ 0
 D36
-Text GLabel 2000 3950 0    50   Input ~ 0
+Text GLabel 2200 3650 2    50   Input ~ 0
 D38
-Text GLabel 2000 4050 0    50   Input ~ 0
+Text GLabel 2200 3550 2    50   Input ~ 0
 D40
-Text GLabel 2000 4150 0    50   Input ~ 0
+Text GLabel 2200 3450 2    50   Input ~ 0
 D42
-Text GLabel 2000 4250 0    50   Input ~ 0
+Text GLabel 2200 3350 2    50   Input ~ 0
 D44
-Text GLabel 2000 4350 0    50   Input ~ 0
+Text GLabel 2200 3250 2    50   Input ~ 0
 D46
-Text GLabel 2000 4450 0    50   Input ~ 0
+Text GLabel 2200 3150 2    50   Input ~ 0
 D48
-Text GLabel 2500 3150 2    50   Input ~ 0
+Text GLabel 1700 4450 0    50   Input ~ 0
 D23
-Text GLabel 2500 3250 2    50   Input ~ 0
+Text GLabel 1700 4350 0    50   Input ~ 0
 D25
-Text GLabel 2500 3350 2    50   Input ~ 0
+Text GLabel 1700 4250 0    50   Input ~ 0
 D27
-Text GLabel 2500 3450 2    50   Input ~ 0
+Text GLabel 1700 4150 0    50   Input ~ 0
 D29
-Text GLabel 2500 3550 2    50   Input ~ 0
+Text GLabel 1700 4050 0    50   Input ~ 0
 D31
-Text GLabel 2500 3650 2    50   Input ~ 0
+Text GLabel 1700 3950 0    50   Input ~ 0
 D33
-Text GLabel 2500 3750 2    50   Input ~ 0
+Text GLabel 1700 3850 0    50   Input ~ 0
 D35
-Text GLabel 2500 3850 2    50   Input ~ 0
+Text GLabel 1700 3750 0    50   Input ~ 0
 D37
-Text GLabel 2500 3950 2    50   Input ~ 0
+Text GLabel 1700 3650 0    50   Input ~ 0
 D39
-Text GLabel 2500 4050 2    50   Input ~ 0
+Text GLabel 1700 3550 0    50   Input ~ 0
 D41
-Text GLabel 2500 4150 2    50   Input ~ 0
+Text GLabel 1700 3450 0    50   Input ~ 0
 D43
-Text GLabel 2500 4250 2    50   Input ~ 0
+Text GLabel 1700 3350 0    50   Input ~ 0
 D45
-Text GLabel 2500 4350 2    50   Input ~ 0
+Text GLabel 1700 3250 0    50   Input ~ 0
 D47
-Text GLabel 2500 4450 2    50   Input ~ 0
+Text GLabel 1700 3150 0    50   Input ~ 0
 D49
 $Comp
 L 74xx:74LS181 U1
@@ -298,75 +298,75 @@ Wire Wire Line
 Wire Wire Line
 	4250 2600 4450 2600
 Wire Notes Line
-	1700 3100 2800 3100
+	2500 4500 1400 4500
 Wire Notes Line
-	1600 3500 2800 3500
+	2600 4100 1400 4100
 Wire Notes Line
-	2800 3900 1600 3900
+	1400 3700 2600 3700
 Wire Notes Line
-	1600 4300 2800 4300
+	2600 3300 1400 3300
 Wire Notes Line
-	2800 4500 1600 4500
-Text Notes 1750 3200 2    50   ~ 0
+	1400 3100 2600 3100
+Text Notes 2450 4450 0    50   ~ 0
 AD0
-Text Notes 1750 3600 2    50   ~ 0
+Text Notes 2450 4050 0    50   ~ 0
 BD0
-Text Notes 1750 4000 2    50   ~ 0
+Text Notes 2450 3650 0    50   ~ 0
 FD0
-Text Notes 1750 4400 2    50   ~ 0
+Text Notes 2450 3250 0    50   ~ 0
 SD0
-Text Notes 1750 3300 2    50   ~ 0
+Text Notes 2450 4350 0    50   ~ 0
 AD2
-Text Notes 1750 3400 2    50   ~ 0
+Text Notes 2450 4250 0    50   ~ 0
 AD4
-Text Notes 1750 3500 2    50   ~ 0
+Text Notes 2450 4150 0    50   ~ 0
 AD6
-Text Notes 1750 3700 2    50   ~ 0
+Text Notes 2450 3950 0    50   ~ 0
 BD2
-Text Notes 1750 3800 2    50   ~ 0
+Text Notes 2450 3850 0    50   ~ 0
 DB4
-Text Notes 1750 3900 2    50   ~ 0
+Text Notes 2450 3750 0    50   ~ 0
 BD6
-Text Notes 1750 4100 2    50   ~ 0
+Text Notes 2450 3550 0    50   ~ 0
 FD2
-Text Notes 1750 4200 2    50   ~ 0
+Text Notes 2450 3450 0    50   ~ 0
 FD4
-Text Notes 1750 4300 2    50   ~ 0
+Text Notes 2450 3350 0    50   ~ 0
 FD6
-Text Notes 2850 3200 2    50   ~ 0
+Text Notes 1350 4450 0    50   ~ 0
 AD1
-Text Notes 2850 3300 2    50   ~ 0
+Text Notes 1350 4350 0    50   ~ 0
 AD3
-Text Notes 2850 3400 2    50   ~ 0
+Text Notes 1350 4250 0    50   ~ 0
 AD5
-Text Notes 2850 3500 2    50   ~ 0
+Text Notes 1350 4150 0    50   ~ 0
 AD7
-Text Notes 2850 3600 2    50   ~ 0
+Text Notes 1350 4050 0    50   ~ 0
 BD1
-Text Notes 2850 3700 2    50   ~ 0
+Text Notes 1350 3950 0    50   ~ 0
 BD3
-Text Notes 2850 3800 2    50   ~ 0
+Text Notes 1350 3850 0    50   ~ 0
 BD5
-Text Notes 2850 3900 2    50   ~ 0
+Text Notes 1350 3750 0    50   ~ 0
 BD7
-Text Notes 2850 4000 2    50   ~ 0
+Text Notes 1350 3650 0    50   ~ 0
 FD1
-Text Notes 2850 4100 2    50   ~ 0
+Text Notes 1350 3550 0    50   ~ 0
 FD3
-Text Notes 2850 4200 2    50   ~ 0
+Text Notes 1350 3450 0    50   ~ 0
 FD5
-Text Notes 2850 4300 2    50   ~ 0
+Text Notes 1350 3350 0    50   ~ 0
 FD7
-Text Notes 1750 4500 2    50   ~ 0
+Text Notes 2450 3150 0    50   ~ 0
 SD2
-Text Notes 2850 4500 2    50   ~ 0
+Text Notes 1350 3150 0    50   ~ 0
 SD3
-Text Notes 2850 4400 2    50   ~ 0
+Text Notes 1350 3250 0    50   ~ 0
 SD1
-NoConn ~ 2000 4550
-NoConn ~ 2000 4650
-NoConn ~ 2500 4650
-NoConn ~ 2500 4550
+NoConn ~ 2200 3050
+NoConn ~ 2200 2950
+NoConn ~ 1700 2950
+NoConn ~ 1700 3050
 NoConn ~ 6950 4450
 NoConn ~ 6950 4350
 NoConn ~ 9550 4450
@@ -528,4 +528,28 @@ Text Notes 4200 6950 2    50   ~ 0
 OVERFLOW
 Wire Wire Line
 	4350 7100 4150 7100
+Text Notes 1100 4450 0    50   ~ 0
+PA1
+Text Notes 2700 4450 0    50   ~ 0
+PA0
+Text Notes 1100 4350 0    50   ~ 0
+PA3
+Text Notes 1100 4250 0    50   ~ 0
+PA5
+Text Notes 1100 4150 0    50   ~ 0
+PA7
+Text Notes 2700 4350 0    50   ~ 0
+PA2
+Text Notes 2700 4250 0    50   ~ 0
+PA4
+Text Notes 2700 4150 0    50   ~ 0
+PA6
+Text Notes 1100 3750 0    50   ~ 0
+PC0
+Text Notes 1100 3550 0    50   ~ 0
+PG0
+Text Notes 1100 3350 0    50   ~ 0
+PL4
+Text Notes 1100 3150 0    50   ~ 0
+PL0
 $EndSCHEMATC
